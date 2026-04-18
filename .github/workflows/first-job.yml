@@ -1,0 +1,10 @@
+name: this is github action workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: this id for greeting
+        run: echo "hello"
+      - name: this is final greet
+        run: echo "good bye!!"
